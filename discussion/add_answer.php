@@ -1,6 +1,6 @@
 <?php
   include("database.php");
-
+//add to the discussion
 $id=$_POST['id'];
  
 // Find highest answer number. 
