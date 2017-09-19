@@ -6,7 +6,7 @@
 	</title>
 </head>
 <body>
-
+<!-- create new topic -->
 	<table width="400" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#cccccc">
 	<tr> 
 		<form id="form1" name="form1" method="post" action="add_new_topic.php">
