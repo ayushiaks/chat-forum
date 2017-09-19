@@ -36,7 +36,7 @@ while($rows = mysql_fetch_array($result)){
 }
 mysql_close();
 ?>
- 
+ <!-- create new topic -->
 <tr>
 	<td colspan="5" align="right" bgcolor="#E6E6E6"><a href="new_topic.php"><strong>Create New Topic</strong> </a></td>
 	</tr>
