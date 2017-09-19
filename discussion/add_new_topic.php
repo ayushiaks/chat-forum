@@ -7,7 +7,7 @@
 	$email=$_POST['email'];
 	
 	$datetime=date("d/m/y h:i:s");
-
+	// insert into db
 	$sql="INSERT INTO fquestions(topic, detail, name, email, datetime) VALUES ('$topic', '$detail', '$name', '$email', '$datetime')";
 	$result=mysql_query($sql);
  
