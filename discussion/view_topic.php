@@ -8,7 +8,7 @@ $sql="SELECT * FROM fquestions WHERE id='$id'";
 $result=mysql_query($sql);
 $rows=mysql_fetch_array($result);
 ?>
- 
+ <!-- topic info-->
 <table width="400" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
 <tr>
 <td><table width="100%" border="0" cellpadding="3" cellspacing="1" bordercolor="1" bgcolor="#FFFFFF">
